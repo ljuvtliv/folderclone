@@ -1,0 +1,6 @@
+{
+  "watch": ["libfolderclone"],
+  "ext": "ts,graphql",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node ./test.ts"
+}

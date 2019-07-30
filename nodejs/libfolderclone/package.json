@@ -1,0 +1,23 @@
+{
+  "name": "libfolderclone",
+  "version": "0.0.1",
+  "description": "MultiFolderClone as a node.js module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPLV3",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "googleapis": "^41.0.1",
+    "microjob": "^0.6.1",
+    "sleep": "^6.1.0",
+    "worker-farm": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.27",
+    "@types/core-js": "^2.5.2",
+    "@types/node": "^12.6.8"
+  }
+}

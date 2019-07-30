@@ -1,0 +1,23 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "es5",
+         "es6",
+         "es2016",
+         "esnext.asynciterable",
+         "dom"
+      ],
+      "target": "es2016",
+      "module": "amd",
+      "moduleResolution": "node",
+      "outDir": "./build",
+      "types": ["node","reflect-metadata"],
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "baseUrl": "."
+   }
+}
